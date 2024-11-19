@@ -1,0 +1,25 @@
+#calc {
+    border: 3px solid #93AECA;
+    border-radius: 20px;
+    background-color:#BED1E3;
+}
+
+label {
+    display: block;
+}
+
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+}
