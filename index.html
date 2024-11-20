@@ -75,7 +75,7 @@
 
 
     <script>
-        
+    window.addEventListener('DOMContentLoaded', function (event){    
         const quantityInput = document.getElementById('quantity');
         const serviceRadios = document.querySelectorAll('input[name="type"]');
         const optionSelect = document.getElementById('option');
@@ -150,6 +150,7 @@
         optionSelect.addEventListener('change', calculateCost);
         quantityInput.addEventListener('change', calculateCost);
         calculateButton.addEventListener('click', calculateCost);
+    });
     </script>
 
 </body>
